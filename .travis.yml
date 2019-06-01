@@ -25,6 +25,11 @@ before_script:
   - composer require --prefer-dist --no-update silverstripe-themes/simple:~3.2
   - composer update --no-suggest --prefer-dist
 
+  # Config MySQL
+  - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
+  - sudo mysql_upgrade
+  - sudo service mysql restart
+
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit; fi
   - if [[ $PHPUNIT_COVERAGE_TEST ]]; then phpdbg -qrr vendor/bin/phpunit --coverage-clover=coverage.xml && wget https://scrutinizer-ci.com/ocular.phar; fi
