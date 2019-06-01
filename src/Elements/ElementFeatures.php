@@ -44,7 +44,7 @@ class ElementFeatures extends BaseElement
     ];
 
     /**
-     * @var array 
+     * @var array
      */
     private static $owns = [
         'Features',
