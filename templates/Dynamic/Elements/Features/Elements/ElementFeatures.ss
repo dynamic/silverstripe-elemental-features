@@ -2,13 +2,15 @@
 <% if $Content %><div class="element__content">$Content</div><% end_if %>
 
 <% if $FeaturesList %>
-    <% if $Alternate %>
-        <% loop $FeaturesList %>
-            <% include FeaturesListAlternating %>
-        <% end_loop %>
-    <% else %>
-        <% loop $FeaturesList %>
-            <% include FeaturesList %>
-        <% end_loop %>
-    <% end_if %>
+    <div class="row">
+        <% if $Alternate %>
+            <% loop $FeaturesList %>
+                <% include FeaturesListAlternating %>
+            <% end_loop %>
+        <% else %>
+            <% loop $FeaturesList %>
+                <% include FeaturesList %>
+            <% end_loop %>
+        <% end_if %>
+    </div>
 <% end_if %>
