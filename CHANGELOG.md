@@ -1,5 +1,14 @@
 # Change Log
 
+## [2.1.0](https://github.com/dynamic/silverstripe-elemental-features/tree/2.1.0) (2022-07-15)
+
+## What's Changed
+* REFACTOR Allow PHP 8.0 by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/19
+* ENHANCEMENT Bootstrap templates by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/20
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-features/compare/2.0.5...2.1.0
+
 ## [2.0.5](https://github.com/dynamic/silverstripe-elemental-features/tree/2.0.5) (2019-06-03)
 [Full Changelog](https://github.com/dynamic/silverstripe-elemental-features/compare/2.0.4...2.0.5)
 
