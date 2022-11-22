@@ -2,7 +2,7 @@
 <% if $Content %><div class="element__content">$Content</div><% end_if %>
 
 <% if $FeaturesList %>
-    <div class="row">
+    <div class="row element__features__list">
         <% if $Alternate %>
             <% loop $FeaturesList %>
                 <% include FeaturesListAlternating %>
