@@ -1,6 +1,16 @@
 {
     "name": "dynamic/silverstripe-elemental-features",
     "description": "A block that displays featured content - large image, title, description and link.",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content",
+        "blocks",
+        "feature",
+        "content"
+    ],
     "authors": [
         {
             "name": "Dynamic",
@@ -8,19 +18,15 @@
             "homepage": "https://www.dynamicagency.com"
         }
     ],
-    "keywords": [
-        "silverstripe", "elemental", "content", "blocks", "feature", "content"
-    ],
-    "type": "silverstripe-vendormodule",
-    "license": "BSD-3-Clause",
     "require": {
         "dnadesign/silverstripe-elemental": "^4.8",
-        "dynamic/silverstripe-elemental-baseobject": "^2.0"
+        "dynamic/silverstripe-elemental-baseobject": "^3.0"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^2",
-        "squizlabs/php_codesniffer": "^3.0"
+        "silverstripe/recipe-testing": "^2"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Dynamic\\Elements\\Features\\": "src/",
@@ -35,8 +41,6 @@
         },
         "process-timeout": 600
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "2.x-dev"
