@@ -68,7 +68,7 @@ Also included in the CMS is a checkbox for an alternate layout option. Both layo
 
 ## Getting more elements
 
-See [Elemental modules by Dynamic](https://github.com/dynamic?q=elemental&type=all&language=&sort=)
+See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?q=elemental&type=all&language=&sort=)
 
 ## Configuration
 
