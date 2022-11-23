@@ -13,7 +13,7 @@ A block that displays featured content - large image, title, description and lin
 ## Requirements
 
 - dnadesign/silverstripe-elemental: ^4.8
-- dynamic/silverstripe-elemental-baseobject: ^2.0
+- dynamic/silverstripe-elemental-baseobject: ^3.0
 
 ## Installation
 
@@ -22,6 +22,22 @@ A block that displays featured content - large image, title, description and lin
 ## License
 
 See [License](license.md)
+
+## Upgrading from version 2
+
+Elemental Features drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
+
+```markdown
+composer require dynamic/silverstripe-link-migrator
+```
+
+Then, run the task "Linkable to SilverStripe Link Migration" via `/dev/tasks`, or cli via:
+```markdown
+vendor/bin/sake dev/tasks/LinkableMigrationTask
+```
+
+This will populate all of the new Link fields with data from the old class.
+
 
 ## Example usage
 
@@ -36,23 +52,23 @@ Also included in the CMS is a checkbox for an alternate layout option. Both layo
 ## Screen Shots
 
 #### Front End sample of a Features Element
-![Front End sample of a Features Element](./readme-images/features-block-sample.jpg)
+![Front End sample of a Features Element](./docs/en/_images/features-block-sample.jpg)
 
 #### Front End sample of a Features Element Alternate Layout
-![Front End sample of a Features Element](./readme-images/features-block-sample-alt.jpg)
+![Front End sample of a Features Element](./docs/en/_images/features-block-sample-alt.jpg)
 
 #### CMS - Features Element Main Tab
-![CMS - Features Block Main Tab](./readme-images/features-block-cms.jpg)
+![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms.jpg)
 
 #### CMS - Features Element - Features List
-![CMS - Features Block Main Tab](./readme-images/features-block-cms-features-list.jpg)
+![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-features-list.jpg)
 
 #### CMS - Features Element - Feature Add/Edit
-![CMS - Features Block Main Tab](./readme-images/features-block-cms-feature.jpg)
+![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-feature.jpg)
 
 ## Getting more elements
 
-See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#included-blocks)
+See [Elemental modules by Dynamic](https://github.com/dynamic?q=elemental&type=all&language=&sort=)
 
 ## Configuration
 
