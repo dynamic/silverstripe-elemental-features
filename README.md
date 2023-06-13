@@ -12,8 +12,8 @@ A block that displays featured content - large image, title, description and lin
 
 ## Requirements
 
-- dnadesign/silverstripe-elemental: ^4.8
-- dynamic/silverstripe-elemental-baseobject: ^3.0
+- dnadesign/silverstripe-elemental: ^5
+- dynamic/silverstripe-elemental-baseobject: ^4
 
 ## Installation
 
