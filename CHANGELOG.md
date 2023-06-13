@@ -1,5 +1,11 @@
 # Change Log
 
+## [4.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-features/tree/4.0.0-alpha1) (2023-06-12)
+
+* REFACTOR Elemental 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/25
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-features/compare/3.0.0...4.0.0-alpha1
+
 ## [3.0.0](https://github.com/dynamic/silverstripe-elemental-features/tree/3.0.0) (2022-12-14)
 
 * ENHANCEMENT template clean up by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/21
