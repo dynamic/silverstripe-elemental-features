@@ -28,6 +28,16 @@
     "require-dev": {
         "silverstripe/recipe-testing": "^3"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jsirish/silverstripe-link.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jsirish/silverstripe-linkfield.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
