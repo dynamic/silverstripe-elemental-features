@@ -1,15 +1,12 @@
-<div class="col-md-12 card">
-    <div class="row feature<% if $Last %> last<% end_if %>">
+<div class="card mb-3">
+    <div class="row g-0 feature-item">
         <% if $Image %>
-            <div class="col-md-5 img-side">
-                <img src="$Image.URL" class="img-fluid" alt="$Image.Title.ATT">
+            <div class="col-md-5">
+                <img src="$Image.URL" class="img-fluid rounded-start" alt="$Image.Title.ATT">
             </div>
-        <% end_if %>
-
-        <% if $Image %>
-        <div class="card-body col-md-7 text-side">
+            <div class="card-body col-md-7">
         <% else %>
-        <div class="card-body col-md-12 text-side">
+            <div class="card-body col-md-12">
         <% end_if %>
             <% if $Title %><h3 class="card-title">$Title</h3><% end_if %>
             <% if $Content %>
