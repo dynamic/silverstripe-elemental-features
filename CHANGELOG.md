@@ -1,5 +1,13 @@
 # Change Log
 
+## [4.0.0](https://github.com/dynamic/silverstripe-elemental-features/tree/4.0.0) (2023-09-10)
+* REFACTOR Elemental 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/25
+* REFACTOR Silverstripe Link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/26
+* Bootstrap 5 updates by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/27
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-features/compare/3.0.0...4.0.0
+
 ## [4.0.0-beta1](https://github.com/dynamic/silverstripe-elemental-features/tree/4.0.0-beta1) (2023-06-29)
 
 * REFACTOR Silverstripe Link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/26
