@@ -13,7 +13,7 @@
                 <div class="card-text">$Content</div>
             <% end_if %>
 
-            <% if $ElementLink %>$ElementLink.setStyle('btn btn-primary')<% end_if %>
+            <% if $ElementLink %>$ElementLink.setStyle('btn btn-outline-primary')<% end_if %>
         </div>
     </div>
 </div>
