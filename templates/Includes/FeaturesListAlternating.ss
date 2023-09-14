@@ -2,9 +2,9 @@
     <div class="row g-0 feature-item alternating">
         <% if $Image %>
             <div class="col-md-5">
-                <img src="$Image.URL" class="img-fluid" alt="$Image.Title.ATT">
+                <img src="$Image.FocusFill(800,550).URL" class="img-fluid" alt="$Image.Title.ATT">
             </div>
-            <div class="card-body col-md-7<% if $Odd %> order-first<% end_if %>">
+            <div class="card-body col-md-7<% if $Even %> order-first<% end_if %>">
         <% else %>
             <div class="card-body col-md-12">
         <% end_if %>
