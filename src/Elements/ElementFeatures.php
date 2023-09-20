@@ -102,7 +102,7 @@ class ElementFeatures extends BaseElement
                 )->setTitle(_t(
                     __CLASS__ . '.LayoutLabel',
                     'Layout'
-                ))
+                ))->setName('FeaturesLayout')
             );
 
             if ($this->ID) {
