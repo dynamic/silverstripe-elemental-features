@@ -24,6 +24,28 @@ A block that displays featured content - large image, title, description and lin
 
 See [License](LICENSE.md)
 
+## Usage
+
+A block to display rows of featured content - large image, title, description, and link. Includes an option to alternate the layout of the features from image left to image right.
+
+### Template Notes
+
+The default templates are based off [Bootstrap 5](https://getbootstrap.com/) classes/styling.
+
+## Screen Shots
+
+#### Default Template of a Features Element
+![Default Template of a Features Element](./docs/en/_images/features-block-sample.png)
+
+#### Default Template of a Features Element with Alternate Layout
+![Default Template of a Features Element Alternate](./docs/en/_images/features-block-sample-alt.png)
+
+#### CMS - Features Element Main Tab
+![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms.png)
+
+#### CMS - Features Element - Feature Add/Edit
+![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-feature.png)
+
 ## Upgrading from version 2
 
 Elemental Features drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
@@ -38,34 +60,6 @@ vendor/bin/sake dev/tasks/LinkableMigrationTask
 ```
 
 This will populate all of the new Link fields with data from the old class.
-
-
-## Usage
-
-A block to display rows of featured content - image, title, description, link.
-
-### Template Notes
-
-The default templates are based off [Bootstrap 4](https://getbootstrap.com/) classes/styling.
-
-Also included in the CMS is a checkbox for an alternate layout option. Both layout options are setup in includes that will work right away.
-
-## Screen Shots
-
-#### Front End sample of a Features Element
-![Front End sample of a Features Element](./docs/en/_images/features-block-sample.jpg)
-
-#### Front End sample of a Features Element Alternate Layout
-![Front End sample of a Features Element](./docs/en/_images/features-block-sample-alt.jpg)
-
-#### CMS - Features Element Main Tab
-![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms.jpg)
-
-#### CMS - Features Element - Features List
-![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-features-list.jpg)
-
-#### CMS - Features Element - Feature Add/Edit
-![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-feature.jpg)
 
 ## Getting more elements
 
