@@ -1,5 +1,14 @@
 # Change Log
 
+## [4.0.1](https://github.com/dynamic/silverstripe-elemental-features/tree/4.0.1) (2023-10-17)
+* FEATURE Button style to outline-primary by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/28
+* BUGFIX Default Link style by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/29
+* FEATURE require Focuspoint, auto-crop images by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/30
+* FEATURE mobile template work by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/34
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-features/compare/4.0.0...4.0.1
+
 ## [4.0.0](https://github.com/dynamic/silverstripe-elemental-features/tree/4.0.0) (2023-09-10)
 * REFACTOR Elemental 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/25
 * REFACTOR Silverstripe Link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-features/pull/26
