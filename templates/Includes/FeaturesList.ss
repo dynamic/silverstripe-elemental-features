@@ -5,7 +5,7 @@
                 <div class="col-md-5">
                     <img src="$Image.FocusFill(800,550).URL" class="img-fluid" alt="$Image.Title.ATT">
                 </div>
-                <div class="card-body col-md-7<% if $Top.Alternate %><% if $Even %> order-md-first<% end_if %><% end_if %>">
+                <div class="card-body col-md-7<% if $Top.Alternate && $Even %> order-md-first<% end_if %>">
             <% else %>
                 <div class="card-body col-md-12">
             <% end_if %>
