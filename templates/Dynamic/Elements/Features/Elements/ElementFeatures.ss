@@ -3,14 +3,6 @@
 
 <% if $FeaturesList %>
     <div class="row g-0 element__features__list">
-        <% if $Alternate %>
-            <% loop $FeaturesList %>
-                <% include FeaturesListAlternating %>
-            <% end_loop %>
-        <% else %>
-            <% loop $FeaturesList %>
-                <% include FeaturesList %>
-            <% end_loop %>
-        <% end_if %>
+        <% include FeaturesList Top=$Top %>
     </div>
 <% end_if %>
