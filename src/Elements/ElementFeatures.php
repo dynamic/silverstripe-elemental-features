@@ -16,7 +16,9 @@ use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 /**
  * Class PageSectionBlock.
  *
- * @method HasManyList $Features
+ * @property string $Content
+ * @property bool $Alternate
+ * @method DataList|FeatureObject[] Features()
  */
 class ElementFeatures extends BaseElement
 {

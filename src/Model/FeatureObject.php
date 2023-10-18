@@ -11,6 +11,7 @@ use SilverStripe\Forms\FieldList;
  *
  * @property int $Sort
  * @property int $ElementFeaturesID
+ * @method ElementFeatures ElementFeatures()
  */
 class FeatureObject extends BaseElementObject
 {
