@@ -13,7 +13,7 @@ A block that displays featured content - large image, title, description and lin
 ## Requirements
 
 - dnadesign/silverstripe-elemental: ^5
-- dynamic/silverstripe-elemental-baseobject: ^4
+- dynamic/silverstripe-elemental-baseobject: ^5
 - jonom/focuspoint: ^5
 
 ## Installation
