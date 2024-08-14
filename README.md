@@ -46,20 +46,9 @@ The default templates are based off [Bootstrap 5](https://getbootstrap.com/) cla
 #### CMS - Features Element - Feature Add/Edit
 ![CMS - Features Block Main Tab](./docs/en/_images/features-block-cms-feature.png)
 
-## Upgrading from version 2
+## Upgrading from version 4
 
-Elemental Features drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
-
-```markdown
-composer require dynamic/silverstripe-link-migrator
-```
-
-Then, run the task "Linkable to SilverStripe Link Migration" via `/dev/tasks`, or cli via:
-```markdown
-vendor/bin/sake dev/tasks/LinkableMigrationTask
-```
-
-This will populate all of the new Link fields with data from the old class.
+This module drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
 
 ## Getting more elements
 
