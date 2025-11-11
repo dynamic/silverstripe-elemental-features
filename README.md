@@ -3,7 +3,7 @@
 A block that displays featured content - large image, title, description and link.
 
 [![CI](https://github.com/dynamic/silverstripe-elemental-features/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-features/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-features/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-features)
+[![Sponsors](https://img.shields.io/badge/Sponsor-Dynamic-ff69b4?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/dynamic)
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-features/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-features)
 [![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-elemental-features/downloads)](https://packagist.org/packages/dynamic/silverstripe-elemental-features)
