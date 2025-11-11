@@ -1,5 +1,7 @@
 # Silverstripe Elemental Features
 
+[![Sponsors](https://img.shields.io/badge/Sponsor-Dynamic-ff69b4?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/dynamic)
+
 A block that displays featured content - large image, title, description and link.
 
 [![CI](https://github.com/dynamic/silverstripe-elemental-features/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-features/actions/workflows/ci.yml)
