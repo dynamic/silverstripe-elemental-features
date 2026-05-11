@@ -1,4 +1,3 @@
 <?php
 
-define('SILVERSTRIPE_ELEMENTAL-FEATURES_PATH', __DIR__);
-define('SILVERSTRIPE_ELEMENTAL-FEATURES_DIR', basename(__DIR__));
+// no-op
